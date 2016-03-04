@@ -12,6 +12,10 @@ https://github.com/vsistla/bigdata-visa/tree/master/data
 	* SELECT
 	* SELECT with LIMIT(10)
 	* describe
+* STEP 8 - Import the nasdaq table from mysql into sqoop using jdbc:mysql driver
+	* Import all the rows
+	* Then ....try to import with a criteria to smaller set
+
 
 
 
