@@ -1,0 +1,5 @@
+package fileSearcher
+
+class FilterCheckerTests extends FlatS{
+
+}

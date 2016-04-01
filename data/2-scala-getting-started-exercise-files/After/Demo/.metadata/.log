@@ -1,0 +1,56 @@
+!SESSION 2014-04-27 01:21:30.489 -----------------------------------------------
+eclipse.buildId=3.0.2-vfinal-20131028-1923-Typesafe
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jdt.core 4 4 2014-04-27 19:31:40.097
+!MESSAGE File not found: '/Filesearcher/src/test/scala/fileSearcher/FilterCheckerTests.scala'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/Filesearcher/src/test/scala/fileSearcher/FilterCheckerTests.scala' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:287)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1187)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:649)
+	at scala.tools.eclipse.javaelements.ScalaSourceFile.getContents(ScalaSourceFile.scala:146)
+	at scala.tools.eclipse.InteractiveCompilationUnit$class.sourceFile$default$1(InteractiveCompilationUnit.scala:37)
+	at scala.tools.eclipse.javaelements.ScalaSourceFile.sourceFile$default$1(ScalaSourceFile.scala:69)
+	at scala.tools.eclipse.ScalaPresentationCompiler$$anon$1.default(ScalaPresentationCompiler.scala:68)
+	at scala.tools.eclipse.ScalaPresentationCompiler$$anon$1.default(ScalaPresentationCompiler.scala:66)
+	at scala.collection.mutable.HashMap.apply(HashMap.scala:64)
+	at scala.tools.eclipse.ScalaPresentationCompiler.withSourceFile(ScalaPresentationCompiler.scala:108)
+	at scala.tools.eclipse.ScalaProject$$anonfun$withSourceFile$1.apply(ScalaProject.scala:602)
+	at scala.tools.eclipse.ScalaProject$$anonfun$withSourceFile$1.apply(ScalaProject.scala:601)
+	at scala.tools.eclipse.ScalaProject$$anonfun$withPresentationCompiler$1.apply(ScalaProject.scala:595)
+	at scala.tools.eclipse.ScalaProject$$anonfun$withPresentationCompiler$1.apply(ScalaProject.scala:594)
+	at scala.tools.eclipse.util.Cached$class.apply(Cached.scala:41)
+	at scala.tools.eclipse.ScalaProject$$anon$1.apply(ScalaProject.scala:95)
+	at scala.tools.eclipse.ScalaProject.withPresentationCompiler(ScalaProject.scala:594)
+	at scala.tools.eclipse.ScalaProject.withSourceFile(ScalaProject.scala:603)
+	at scala.tools.eclipse.InteractiveCompilationUnit$class.doWithSourceFile(InteractiveCompilationUnit.scala:56)
+	at scala.tools.eclipse.javaelements.ScalaSourceFile.doWithSourceFile(ScalaSourceFile.scala:69)
+	at scala.tools.eclipse.javaelements.ScalaCompilationUnit$class.addToIndexer(ScalaCompilationUnit.scala:134)
+	at scala.tools.eclipse.javaelements.ScalaSourceFile.addToIndexer(ScalaSourceFile.scala:69)
+	at scala.tools.eclipse.ScalaSourceIndexer$$anonfun$indexDocument$2.apply(ScalaSourceIndexer.scala:23)
+	at scala.tools.eclipse.ScalaSourceIndexer$$anonfun$indexDocument$2.apply(ScalaSourceIndexer.scala:23)
+	at scala.Option.map(Option.scala:145)
+	at scala.tools.eclipse.ScalaSourceIndexer.indexDocument(ScalaSourceIndexer.scala:23)
+	at scala.tools.eclipse.contribution.weaving.jdt.indexerprovider.IndexerProviderAspect.ajc$around$scala_tools_eclipse_contribution_weaving_jdt_indexerprovider_IndexerProviderAspect$1$16276a3c(IndexerProviderAspect.aj:30)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:69)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:498)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$1.execute(IndexManager.java:938)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:405)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2014-04-27 19:31:40.100
+!MESSAGE Resource '/Filesearcher/src/test/scala/fileSearcher/FilterCheckerTests.scala' does not exist.
+!SESSION 2014-04-30 16:48:58.480 -----------------------------------------------
+eclipse.buildId=3.0.2-vfinal-20131028-1923-Typesafe
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-04-30 16:49:37.014
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
